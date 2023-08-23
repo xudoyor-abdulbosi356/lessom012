@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+  body{
+   height: 2000px;
+  }
+.box{
+    width: 1500px;
+    height: 800px;
+    padding-top: 90px;
+    background: linear-gradient(170deg,rgb(255, 5, 163),purple,purple);
+}
+ .table{
+    width: 70%;
+border-collapse: collapse;
+    border-bottom: greenyellow;
+    border: 3px solid #fff;
+ }
+ .table th{
+    text-align: center;
+ }
+ .table th,
+ .table td{
+    text-align: center;
+    border-bottom: rgb(255, 255, 255);
+    padding: 14px;
+ }
+ .table th{
+    background: rgb(129, 255, 3);
+    text-align: left;
+    color: #fff;
+ }
+  .table tbody tr:nth-child(even){
+    background: greenyellow;
+  }
+  .table tbody tr:hover > td{
+    color: greenyellow;
+    border-bottom: greenyellow;
+  }
+  .tab{
+   width: 1500px;
+   border-collapse: collapse;
+   border-bottom: #f1f1f1;
+   margin-top: 50px;
+   border: 3px solid black;
+  }
+  .tab th,
+  .tab td{
+   border-bottom: #ddd;
+   padding: 14px;
+  } 
+  .tab th{
+   text-align: left;
+   color: black;
+  }
+  .tab tbody tr:nth-child(even){
+   background: #f1f1f1;
+  }
+ .tab tbody tr:hover > td{
+   color: red;
+   border-bottom: 1px solid #f1f1f1;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
